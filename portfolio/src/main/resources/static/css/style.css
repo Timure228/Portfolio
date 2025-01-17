@@ -1,0 +1,25 @@
+body {
+    background-color: #b7d551
+}
+
+h1{
+    font-size: 50px;
+    font-family: 'Gill Sans', sans-serif;
+    font-style: normal;
+    color: #040f49;
+}
+
+body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+button {
+  width: 200px;
+  padding: 12px 420px;
+  cursor: pointer;
+}
+
