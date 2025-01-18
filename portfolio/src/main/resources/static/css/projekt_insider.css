@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: #dadde6;
 }
 
 h1 {
@@ -21,7 +21,7 @@ h1 {
     size 10px;
     width: 900px;
     height: 120px;
-    border: 1px solid green;
+    border: 2px black;
 }
 
 .container {

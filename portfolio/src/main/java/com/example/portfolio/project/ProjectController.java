@@ -4,10 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
-import java.time.LocalDate;
 
-
-import java.util.List;
 
 @Controller
 public class ProjectController {
@@ -29,6 +26,7 @@ public class ProjectController {
         return "portfolio_side";
     }
 
+    // Python
     @PostMapping("/portfolios/python_projekte")
     public String python_show(){
         return "python_index";
@@ -44,4 +42,28 @@ public class ProjectController {
         return "python_food";
     }
 
+    @PostMapping("/portfolios/allgemein")
+    public String python_allgemein_show(){
+        return "python_allgemein";
+    }
+
+    // Hamster
+    @PostMapping("/portfolios/hamster_projekte")
+    public String hamster_show(){
+        return "hamster_index";
+    }
+
+    @PostMapping("/portfolios/hamster1")
+    public String hamster1(){
+        return "hamster1";
+    }
+
+    @PostMapping("/portfolios/hamster2")
+    public String hamster2(){
+        return "hamster2";
+    }
+    @PostMapping("/portfolios/hamster3")
+    public String hamster3(){
+        return "hamster3";
+    }
 }

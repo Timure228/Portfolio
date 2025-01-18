@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
-    <link rel="stylesheet" type="text/css" href="../static/css/style_portfolio_side.css">
+    <link rel="stylesheet" type="text/css" href="/css/style_portfolio_side.css">
 <head>
     <meta charset="UTF-8">
     <title>portfolio</title>
 </head>
 <body>
 <div>
-    <h1>Projekt</h1>
+    <h1>Projekte</h1>
+    <div class="container">
     <form action="portfolios/python_projekte" method="post">
-    <button>Python Projekte</button>
+    <button class="button">Python Projekte</button>
     </form>
-</div>
 
+    <form action="portfolios/hamster_projekte" method="post">
+    <button class="button">Hamster Simulator</button>
+    </form>
+    <button class="button">Arduino Projekte</button>
+    </div>
+</div>
 </body>
 </html>
